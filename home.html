@@ -55,11 +55,11 @@
 <div class="grid grid-cols-2 grid-rows-2 md:grid-cols-3 gap-3 mx-5  text-center">
   <div class="bg-orange-500 rounded-2xl  p-5">
     <h4 class="font-bold text-2xl">Diposit</h4>
-    <h2 class="font-extrabold text-2xl">$<span>500</span></h2>
+    <h2 class="font-extrabold text-2xl">$<span id="dipositValue">500</span></h2>
   </div>
   <div class="bg-yellow-300 rounded-2xl p-5">
     <h4 class="font-bold text-2xl">  Withdraw</h4>
-    <h2 class="font-extrabold text-2xl">$<span>200</span></h2>
+    <h2 class="font-extrabold text-2xl">$<span id="withdrawValue">200</span></h2>
   </div>
   <div class="bg-green-500 rounded-2xl  p-5">
     <h4 class="font-bold text-2xl"> Blance</h4>
@@ -73,14 +73,20 @@
   <div class="grid grid-cols-2 gap-3">
     <div class="bg-emerald-300 rounded-2xl   p-5">
       <h4 class="font-bold text-2xl">Diposit Amount</h4>
-      <input type="text " id="" placeholder="Enter Diposit Amount " class="w-9/12">
+      <input type="text " id="diposit-fild" placeholder="Enter Diposit Amount " class="w-9/12">
+      <button class="btn block mt-2 m-auto font-bold  bg-red-500" id="diposit-btn"> Diposit</button>
     </div>
     <div class="bg-purple-400 rounded-2xl   p-5">
       <h4 class="font-bold text-2xl">Withdraw Amount </h4>
-      <input type="text " id="" placeholder="Enter Withdraw Amount " class="w-9/12">
+      <input type="text " id="Withdraw-fild" placeholder="Enter Withdraw Amount " class="w-9/12">
+      <button class="btn block mt-2 m-auto font-bold bg-red-500" id="Withdraw-btn"> Withdraw </button>
     </div>
   </div>
 </main>
 
+
+<script src="bank.js">
+
+</script>
 </body>
 </html>
