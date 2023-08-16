@@ -14,7 +14,7 @@ if(mail==='monirweb420@gmail.com'&&  userpassword==='monir' ){
     window.location.href='home.html';
 }
 else{
-   alert('ur invalid user please inter your valid user-name and password');
+   alert('Please Enter your valid user-name and password');
 }
 
 });
